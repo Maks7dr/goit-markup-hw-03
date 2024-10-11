@@ -31,12 +31,13 @@ body{
 
 .section-one{
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
+    padding: 188px 0;
+}
+.section-two{
+    padding: 120px 0;
 }
 .section-three{
     background: #F4F4FD;
-    max-width: 1440px;
 }
 .footer{
     background: #2E2F42;
@@ -52,6 +53,7 @@ body{
     line-height: 1.07;
     font-size: 56px;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .title-two{
     text-align: center;
@@ -66,14 +68,15 @@ body{
     padding-bottom: 72px;
 }
 .title-info{
-    display: none;
+    visibility: hidden;
 }
 .title-three{
     color: #2e2f42;
     line-height: 1.2;
     font-size: 20px;
     letter-spacing: 0.02em;
-    font-weight: 500; 
+    font-weight: 500;
+    margin-bottom: 8px; 
 }
 .logo-footer{
     color: #4D5AE5;
@@ -118,8 +121,9 @@ body{
     font-weight: 500;
     line-height: 1.5;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    border: none;
 }
 .btn:hover, .btn:focus{
     background-color: #404BBF;
@@ -153,7 +157,6 @@ address{
     list-style-type: none;
     letter-spacing: 0.02em;
     display: flex;
-    flex-direction: row;
     gap: 24px;
 }
 .ul-good-section-three{
@@ -205,23 +208,13 @@ justify-content: space-between;
     gap: 40px;
 
 }
- .container-one{
-    max-width: 1440px;
+.container-one{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 45px;
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-top: 191px;
-    padding-bottom: 188px;
 }
 .container-two{
-    width: 1128px;
-    height: 104px;
-    margin-left: 156px;
-    margin-top: 120px;
-    margin-bottom: 120px;
     display: block;
     align-content: center;
 }
@@ -273,4 +266,7 @@ justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.li-info{
+    width: calc((100% - 72px)/ 4);
 }
