@@ -5,6 +5,8 @@ body{
         color: #434455;
         background: #FFFFFF;
         line-height: 1.5;
+        padding: 0;
+        margin: 0;
 }
 
 .logo {
@@ -17,8 +19,7 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    letter-spacing: 0.03em
-    
+    letter-spacing: 0.03em;
 }
 .logo:hover, .logo:focus{
     color: #2E2F42;
@@ -29,13 +30,20 @@ body{
 
 .section-one{
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
 }
 .section-three{
     background: #F4F4FD;
+    max-width: 1440px;
 }
 .footer{
     background: #2E2F42;
-    color: #F4F4FD;;
+    color: #F4F4FD;
+    width: 1440px;
+    height: 312px;
+    padding-left: 156px;
+    padding-top: 100px;
 }
 .title-one{
     color: #FFFFFF;
@@ -53,6 +61,11 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.title-info{
+    display: none;
 }
 .title-three{
     color: #2e2f42;
@@ -84,6 +97,7 @@ body{
     text-decoration: none;
     list-style-type: none;
     color: #2e2f42;
+    
 }
 .navig:hover, .navig:focus{
     color: #404bbf;
@@ -102,6 +116,9 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
 }
 .btn:hover, .btn:focus{
     background-color: #404BBF;
@@ -109,7 +126,10 @@ body{
 .ul-good{
     list-style-type: none;
     font-weight: 500;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    display: flex;
+    margin: 0;
+    gap: 40px;
 }
 .ul-good:hover,
 .ul-good:focus{
@@ -132,13 +152,30 @@ address{
 .ul-section-two{
     list-style-type: none;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 .ul-good-section-three{
     list-style-type: none;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 .ul-good-section-four{
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 156px;
+    
 }
 .text{
     font-size: 16px;
@@ -150,4 +187,85 @@ address{
         letter-spacing: 0.02em;
         line-height: 1.5;
         color:#F4F4FD;
+}
+.container-header{
+   max-width: 1440px;
+   padding-left: 156px;
+   padding-top: 24px;
+   padding-right: 156px;
+   padding-bottom: 24px;
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+}
+.address-header{
+    display: flex;
+    gap: 40px;
+    margin: 0;
+}
+ .container-one{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-top: 191px;
+    padding-bottom: 188px;
+}
+.container-two{
+    width: 1128px;
+    height: 104px;
+    margin-left: 156px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: block;
+    align-content: center;
+}
+.container-three{
+    width: 1440px;
+    height: 732px;
+    display: block;
+    align-content: center;
+}
+.ul-team{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-left: 156px;
+}
+.section-four{
+    max-width: 1440;
+    padding: 0;
+    margin: 0;
+}
+.ccontainer-four{
+    width: 1128px;
+    height: 1000px;
+    display: block;
+}
+.li-portfolio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+     border-right: 1px solid #e7e9fc;
+}
+.container-footer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 264px;
+    height: 112px;
 }
