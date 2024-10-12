@@ -160,6 +160,7 @@ color: #2e2f42;
     text-decoration: none;
     list-style-type: none;
     color: #2e2f42;
+    padding: 24px 0;
     
 }
 .navig:hover, .navig:focus{
@@ -185,7 +186,7 @@ color: #2e2f42;
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+
 }
 .ul-good:hover,
 .ul-good:focus{
