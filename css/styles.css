@@ -9,6 +9,24 @@ body{
         margin: 0;
 }
 
+.title-one,
+.title-two,
+.title-three,
+.text,
+.text-left,
+.text-footer,
+.title-three-left{
+    margin: 0;
+    padding: 0;
+}
+.ul-good,
+.ul-good-section-four,
+.ul-team,
+.ul-section-two{
+    margin: 0;
+    padding-left: 0;
+}
+
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -75,6 +93,15 @@ body{
     font-weight: 500;
     margin-bottom: 8px; 
     text-align: center;
+}
+.title-three-left{
+color: #2e2f42;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: left;
 }
 .logo-footer{
     color: #4D5AE5;
@@ -177,6 +204,12 @@ address{
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: center;
+}
+.text-left{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    text-align: left;
 }
 .text-footer{
     font-size: 16px;
